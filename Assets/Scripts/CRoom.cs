@@ -1,19 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-//struct Coord
-//{
-//    public int m_iTileX;
-//    public int m_iTileY;
-
-//    public Coord(int a_x, int a_y)
-//    {
-//        m_iTileX = a_x;
-//        m_iTileY = a_y;
-//    }
-//}
-
-class CRoom : IComparable<CRoom>
+public class CRoom : IComparable<CRoom>
 {
     public List<CCoord> m_lstOfTiles;
     public List<CCoord> m_lstOfEdgeTiles;
